@@ -35,7 +35,8 @@ After training these models, I learned there is more to the story. From this pro
 to price condos because some factors are hard to label. For example, neighborhood safety affects condo 
 price, but in the United States, crime is an ever-changing situation with recent gun violence activity in 
 previously safe locations. It’s also much easier to assess [property condition](https://www.researchgate.net/publication/328393238_Estimating_property_condition_effect_on_residential_property_value_Evidence_from_U_S_home_sales_data)
-and desirable architectural styles by looking at pictures than to label them. 
+and desirable [architectural styles](https://thearchitectsdiary.com/how-architecture-influences-your-homes-selling-price/)
+by looking at pictures than to label them. 
 
 Other issues that make it challenging to accurately model condo prices include data quality (missing or 
 messy data), how to encode eccentric property characteristics (desirable water views, penthouse/condo 
