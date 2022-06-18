@@ -484,5 +484,5 @@ repurposed to identify affordable apartments for rent, using monthly rent as the
 
 ### Methods
 - Multiple Linear Regression
-- Gradient-Boosted Decision Trees
+- Gradient-Boosted Decision Tree
 - Data Visualization
