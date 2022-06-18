@@ -209,20 +209,20 @@ their commute time, so they have more free time for other activities.
 
 ### Step 4: Modeling Building
 
-Predictive modeling is the process of applying a statistical model or an algorithm to data to predict 
+[Predictive modeling](https://www.stat.berkeley.edu/~aldous/157/Papers/shmueli.pdf) is the process of applying a statistical model or an algorithm to data to predict 
 future observations.
 
-It is important to use in this analysis because traditional house price prediction is based on cost and sale 
+It is important to use in this analysis because [traditional house price prediction](https://ageconsearch.umn.edu/record/97781/files/2004-9-house%20price%20prediction.pdf) is based on cost and sale 
 price comparison and lacks a standard process of evaluation and certification. A predictive model solves 
 for a lack of objective criteria, an information gap, and helps uncover the pricing inefficiencies in real 
 estate.
 
-Multiple linear regression is a machine learning technique used to predict the outcome of a continuous 
+[Multiple linear regression](https://corporatefinanceinstitute.com/resources/knowledge/other/multiple-linear-regression/) is a machine learning technique used to predict the outcome of a continuous 
 variable based on the value of two or more variables. With multiple linear regression, it is easier to 
 interpret and quantify how much each numerical and categorical feature affects the condo price or 
 predict a future condo price with new data.
 
-Gradient-boosted decision tree is a machine learning technique that accounts for non-linear 
+[Gradient-boosted decision tree](https://c3.ai/glossary/data-science/gradient-boosted-decision-trees-gbdt/) is a machine learning technique that accounts for non-linear 
 relationships between factors but is less interpretable. It trains a sequence of decision trees, with each 
 successive tree attempting to minimize the error of the previous tree, which can improve predictive 
 accuracy.
@@ -230,7 +230,7 @@ accuracy.
 I explored these two algorithms because multiple linear regression resulted in a high error, so I tried a 
 gradient-boosted decision tree to improve the model fit.
 
-Specific error metrics, such as MAE, MAPE, and RMSE, are considered to evaluate the performance of 
+Specific [error](https://medium.com/human-in-a-machine-world/mae-and-rmse-which-metric-is-better-e60ac3bde13d/) metrics, such as MAE, MAPE, and RMSE, are considered to evaluate the performance of 
 the two algorithms.
 
 • The Mean Absolute Error (MAE) is the average of the absolute error in dollars and is most 
@@ -290,7 +290,7 @@ Condos that are undervalued in this price range have the essentials for a great 
 records are Philadelphia condos which have now been sold in the two months since the data was 
 extracted. What the model could not capture is that the remaining five condos that have not sold have 
 some flaw: they are either in a bad neighborhood, have poor management, have poor conduct by 
-workers, are noisy, or a majority of residents of a condo building are senior citizens (that means people 
+workers, are noisy, or a majority of residents of a condo building are [senior citizens](https://www.veryapt.com/ApartmentReview-a92-academy-house-philadelphia/) (that means people 
 might change their behavior to accommodate demographic need). This can only be discovered by 
 reading reviews about the condo building and is not easily encoded in the dataset in a way that can be 
 captured by a predictive model.
