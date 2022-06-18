@@ -182,7 +182,7 @@ easily accessible, which is desirable.
 <img src="Images/Walk Score Barchart.png" >
 </p>
 
-8. Literature review suggests the better the transit score, the higher the property price. After 
+8. Literature review suggests [the better the transit score, the higher the property price](https://www.redfin.com/news/how-much-is-one-point-of-transit-score-worth/). After 
 running a correlation matrix, it confirms transit score is highly correlated with walk score
 (correlation coefficient = 0.75) and have higher prices. Locations with a higher walk score 
 typically have good public transit due to thoughtful urban planning.
