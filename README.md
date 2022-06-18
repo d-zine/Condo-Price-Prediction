@@ -82,7 +82,7 @@ more open space.
 The property dataset contains 13,920 condo records from [Rapid API’s Zillow.com API](https://rapidapi.com/apimaker/api/zillow-com1),
 where I pulled from Extended Search, Property Details, and Walk and Transit Score. 
 Other important features, such as population density, median household income, and commute time,
-were obtained from data aggregator simplemaps.com.
+were obtained from data aggregator [simplemaps.com](https://simplemaps.com/data/us-zips).
 I cleaned and merged the data sets, imputed missing values, and removed condos with extremely high 
 prices (>$5.995M).
 
