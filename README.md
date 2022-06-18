@@ -559,9 +559,3 @@ repurposed to identify affordable apartments for rent, using monthly rent as the
 - Multiple Linear Regression
 - Gradient-Boosted Decision Tree
 - Data Visualization
-
-<h3 align="center"> Appendix </h3>
-
-<p align="left">
-<img src="Images/Multi-City Multiple Linear Regression.png" width=300>
-</p>
