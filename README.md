@@ -191,13 +191,13 @@ typically have good public transit due to thoughtful urban planning.
 <img src="Images/Transit Score Barchart.png" width=710>
 </p>
 
-9. Based on literature review, the higher the HOA fee, the lower the condo price. After inspecting 
+9. Based on literature review, [the higher the HOA fee, the lower the condo price](https://www.washingtonpost.com/realestate/the-financial-conundrum-over-condominium-fees/2020/02/19/24d27eb4-3faf-11ea-8872-5df698785a4e_story.html/). After inspecting 
 the data and dropping null HOA fees, it appears monthly HOA fees is weakly positively 
 correlated with price (correlation coefficient = 0.07) and not negatively correlated. Monthly HOA 
 fees could be calculated as a percentage of condo fees and not an offset, which would explain 
 the positive correlation.
 
-10. Literature review suggests the lower commute times, the higher the property value. I binned 
+10. Literature review suggests [the lower commute times, the higher the property value](https://www.mymoneyblog.com/housing-search-trade-off-price-vs-commute-time.html/). I binned 
 commute time into 3 quantiles and used the mean price instead. After inspecting the data, this 
 is consistent with literature review, that commute times are negatively correlated with condo 
 price (correlation coefficient=-.37). In general, people are willing to pay for a unit that shortens 
