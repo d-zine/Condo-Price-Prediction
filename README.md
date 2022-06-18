@@ -114,7 +114,7 @@ Boston Waterfront, Hudson Yards, and Baltimore Harbor.
 <img src="Images/Water View Barchart.png">
 </p>
 </ul>
-2. Literature review suggests the more bedrooms and bathrooms, the higher the condo price. After 
+2. Literature review suggests the more [bedrooms](https://listwithclever.com/real-estate-blog/how-much-value-does-extra-bedroom-add-to-house/) and bathrooms(https://www.opendoor.com/w/blog/improvements-that-increase-home-value#:~:text=According%20to%20Opendoor's%20data%2C%20adding,shower%2C%20sink%2C%20and%20toilet.), the higher the condo price. After 
 inspecting the data, this is true, and in fact bathrooms have a stronger influence on price than 
 bedrooms. I found that the most common (modal) condo has two bedrooms and one bathroom.
 
@@ -431,17 +431,17 @@ and is small at only 600 square feet but is right by a beautiful square. It is o
 spots to talk to friends! Because I included neighborhoods in my model (this neighborhood is 
 cheaper) and no HOA fee was listed, the predicted price came out negative.
 
-<p align="left">
+<ul><p align="left">
 <img src="Images/7th condo.png" width=800>
-</p>
+</p></ul>
   
 2. <b>Modern and chic layout.</b> [1931 Spruce St 1C](https://www.zillow.com/homes/1931-Spruce-St-.num.1C-Philadelphia,-PA-19103_rb/71246871_zpid/). Predicted Price: $215k. Actual Price: $275K (Sold 
 Price: $256K). It is overvalued by $60k, but the renovations and décor are impressive. The model 
 cannot capture how well maintained or stylistically unique a condo is.
 
-<p align="left">
+<ul><p align="left">
 <img src="Images/8th condo.png" width=400>
-  </p>
+  </p></ul>
 
 In summary, these two overvalued condos require compromises between less attractive and more 
 attractive features.
