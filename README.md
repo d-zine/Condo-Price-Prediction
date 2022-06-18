@@ -111,13 +111,25 @@ higher! Not all water views are created equal, however. The locations where my m
 underestimated the value of a water view – i.e., the most desirable water views – were in 
 Boston Waterfront, Hudson Yards, and Baltimore Harbor.
 
+<p align="left">
+<img src="Images/Water View Barchart.png">
+</p>
+
 2. Literature review suggests the more bedrooms and bathrooms, the higher the condo price. After 
 inspecting the data, this is true, and in fact bathrooms have a stronger influence on price than 
 bedrooms. I found that the most common (modal) condo has two bedrooms and one bathroom.
 
+<p align="left">
+<img src="Images/Bathrooms and Bedrooms Barchart.png">
+</p>
+
 3. Literature review suggests that an attached garage increases condo’s price. The data supports 
 this. The median price of a condo with an attached garage is $775k, compared to $360k among 
 condos without an attached garage. In other words, more than double the price!
+
+<p align="left">
+<img src="Images/Attached Garage Barchart.png">
+</p>
 
 4. Literature review suggests the higher the elementary school score, the higher the condo price.
 Better elementary schools help students qualify for magnet highs schools that prep student for a 
@@ -132,6 +144,10 @@ future.
   expensive condos next to poorly rated public schools where students are sent to private schools 
   instead.
 
+<p align="left">
+<img src="Images/Elementary School Score Barchart.png" width=400>
+</p>
+
   I am initially surprised that the correlation coefficient is low (r=.16). One potential explanation is 
   that condo buyer motivations are different. Condo buyers with or plan to have children place 
   value in elementary school score, while those without may not, so that relationship gets
@@ -143,6 +159,10 @@ with the prior research. Newer builds tend to be larger, have modern aesthetics,
 require as much maintenance or renovation, while historic homes pre-1900s are treasured
 because of its rich history, architecture, and charm. They are likely in dense, central locations 
 that are attractive for tourism and can offer tax benefits.
+
+<p align="left">
+<img src="Images/Year Built Barchart.png" >
+</p>
 
 6. Sun score is a composite score that measures your property’s solar power potential to install 
 solar panels. While research suggests installing solar panels increases property value, after 
@@ -158,10 +178,18 @@ an exponential relationship. Excluding Manhattan, 75% of condo units in my data 
 walkable areas. Walkability likely increases condo prices because amenities and transit are 
 easily accessible, which is desirable.
 
+<p align="left">
+<img src="Images/Walk Score Barchart.png" >
+</p>
+
 8. Literature review suggests the better the transit score, the higher the property price. After 
 running a correlation matrix, it confirms transit score is highly correlated with walk score
 (correlation coefficient = 0.75) and have higher prices. Locations with a higher walk score 
 typically have good public transit due to thoughtful urban planning.
+
+<p align="left">
+<img src="Images/Transit Score Barchart.png" width=710>
+</p>
 
 9. Based on literature review, the higher the HOA fee, the lower the condo price. After inspecting 
 the data and dropping null HOA fees, it appears monthly HOA fees is weakly positively 
@@ -175,6 +203,9 @@ is consistent with literature review, that commute times are negatively correlat
 price (correlation coefficient=-.37). In general, people are willing to pay for a unit that shortens 
 their commute time, so they have more free time for other activities.
 
+<p align="left">
+<img src="Images/Commute Time Barchart.png" width=350>
+</p>
 
 ### Step 4: Modeling Building
 
@@ -269,15 +300,26 @@ a pending offer. It is a bargain in Rittenhouse Square, an affluent neighborhood
 security, a rooftop deck, air conditioning, and is close to food/shops. It could have taken better 
 pictures, but it’s a bargain.
 
+<p align="left">
+<img src="Images/1st condo.png" width=400>
+</p>
+
 2. <b>Progressive style in a hip neighborhood. </b> 810 N Hancock St 2. Predicted Price: $338,152, Actual 
 Price: $320,000. This is sold. It’s in North Liberties, a young professional neighborhood close to
 food and entertainment. There’s a garage, natural lighting throughout the property, and a 
 rooftop deck. It has a very modern design, which I enjoy.
 
+<p align="left">
+<img src="Images/2nd condo.png" width=400>
+</p>
+
 3. <b>Average and livable.</b> 2101 Chestnut 403. Predicted Price: $180,120. Actual Price: $174,500 (Sold 
 Price:$160k). This is sold. Riverwest Condos is in Rittenhouse, close to Trader Joes, restaurants, 
 and walking distance to universities. The downside is it looks very typical.
 
+<p align="left">
+<img src="Images/3rd condo.png" width=400>
+</p>
 
 ### Step 5b: Error Findings
 NYC represents 75% of the condos in the data set, so the model reflects more of what NYC condo buyers 
@@ -340,11 +382,18 @@ Capping price at a $325K threshold, I identified 14 total undervalued condos, 3 
 1. <b>Clean layout, high ceilings, and natural sunlight.</b> 444 N 4th St Unit 313. Predicted Price: 
 $368,817, Actual Price: $305K (Sold Price: $299,900).
 
+<p align="left">
+<img src="Images/4th condo.png" width=800>
+</p>
   In Northern Liberties, a young professional neighborhood, the visuals are impressive. The condo
   uses updated design concepts.
 
 2. <b>Cozy layout and design. </b> 1431 N 5th St #1. Predicted Price: $800k, Actual Price: $320K. The 
 predicted price is high because it has 3 bedrooms, 2 bathrooms, and is 1769 sq ft.
+
+<p align="left">
+<img src="Images/5th condo.png" width=400>
+</p>
 
   While Kensington overall is not known to be safe, Old Kensington is the most gentrified because 
   it’s by Northern Liberties, so safety is improving as more young professionals move into this 
@@ -352,6 +401,10 @@ predicted price is high because it has 3 bedrooms, 2 bathrooms, and is 1769 sq f
 
 3. <b>The living room, kitchen, and bathroom design are appealing.</b> 3900 Ford Rd APT 3O
 Predicted Price: $453,690. Actual Price: $315K (Sold Price: $80K).
+
+<p align="left">
+<img src="Images/6th condo.png" width=800>
+</p>
 
   Park Plaza is downtown. It looks like a great place to host friends.
 
@@ -373,16 +426,24 @@ and is small at only 600 square feet but is right by a beautiful square. It is o
 spots to talk to friends! Because I included neighborhoods in my model (this neighborhood is 
 cheaper) and no HOA fee was listed, the predicted price came out negative.
 
+<p align="left">
+<img src="Images/7th condo.png" width=800>
+</p>
+
 2. <b>Modern and chic layout.</b> 1931 Spruce St 1C. Predicted Price: $215k. Actual Price: $275K (Sold 
 Price: $256K). It is overvalued by $60k, but the renovations and décor are impressive. The model 
 cannot capture how well maintained or stylistically unique a condo is.
+
+<p align="left">
+<img src="Images/8th condo.png" width=400>
+</p>
 
 In summary, these two overvalued condos require compromises between less attractive and more 
 attractive features.
 
 By focusing only on Philadelphia, the error metrics improved. MAE for the Philly Gradient Boosted 
 Decision Tree is $135k, vs. $246k MAE for the Philly Multiple Linear Regression. The MAPE for the 
-Philadelphia GBM is 20.6% vs. 44.1% for the MLR.
+Philadelphia GBM is 21% vs. 44% for the MLR.
 
 At both the Northeast regional and local Philadelphia level, Gradient Boosted Decision Trees outperform 
 Multiple Linear Regression in accurately predicting condo price.
@@ -498,3 +559,9 @@ repurposed to identify affordable apartments for rent, using monthly rent as the
 - Multiple Linear Regression
 - Gradient-Boosted Decision Tree
 - Data Visualization
+
+<h3 align="center"> Appendix </h3>
+
+<p align="left">
+<img src="Images/Multi-City Multiple Linear Regression.png" width=300>
+</p>
