@@ -123,7 +123,7 @@ bedrooms. I found that the most common (modal) condo has two bedrooms and one ba
 <img src="Images/Bathrooms and Bedrooms Barchart.png">
 </p>
 
-3. Literature review suggests that an attached garage increases condo’s price. The data supports 
+3. Literature review suggests that [an attached garage increases condo’s price](https://www.s-ehrlich.com/how-much-value-does-a-garage-add-to-a-condo/). The data supports 
 this. The median price of a condo with an attached garage is $775k, compared to $360k among 
 condos without an attached garage. In other words, more than double the price!
 
