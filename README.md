@@ -131,8 +131,7 @@ condos without an attached garage. In other words, more than double the price!
 <img src="Images/Attached Garage Barchart.png">
 </p>
 
-4. Literature review suggests the higher the elementary school score, the higher the condo price.
-Better elementary schools help students qualify for magnet highs schools that prep student for a 
+4. Literature review suggests [the higher the elementary school score, the higher the condo price](https://www.opendoor.com/w/blog/how-school-ratings-impact-home-prices). Better elementary schools help students qualify for magnet highs schools that prep student for a 
 better college experience. This environment will help students secure higher paying jobs in the 
 future.
 
