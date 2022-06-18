@@ -64,10 +64,11 @@ I acquired property listing data for 13,920 condos in 16 Northeastern cities.
 
 ### Why the Northeast?
 
-Elasticity is the change in demand given change in price. The Northeast region exhibits price 
-inelasticity (denoted in red below), meaning that supply cannot keep up with demand and there
-are a lack of substitutes. Northeastern states are also more densely populated and have bodies 
-of water that limit the land available for construction, so are more comparable than regions with 
+Elasticity is the change in demand given change in price. The Northeast region exhibits [price 
+inelasticity](https://voxeu.org/article/declining-elasticity-us-housing-supply/) (denoted in red below), 
+meaning that supply cannot keep up with demand and thereare a lack of substitutes. Northeastern states 
+are also more densely populated and have bodies of water that limit the land available for construction, 
+so are more comparable than regions with 
 more open space.
 
 <p align="center">
