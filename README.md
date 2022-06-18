@@ -296,7 +296,7 @@ might change their behavior to accommodate demographic need). This can only be d
 reading reviews about the condo building and is not easily encoded in the dataset in a way that can be 
 captured by a predictive model.
 
-1. <b>Plain but great price.</b> 118 S 21 St 618. Predicted Price: $170,354, Actual Price: $98,115. This has 
+1. <b>Plain but great price.</b> [118 S 21 St 618](https://www.zillow.com/homes/118-S-21st-St-.num.618-Philadelphia,-PA-19103_rb/2067719166_zpid/). Predicted Price: $170,354, Actual Price: $98,115. This has 
 a pending offer. It is a bargain in Rittenhouse Square, an affluent neighborhood. It offers 24/7 
 security, a rooftop deck, air conditioning, and is close to food/shops. It could have taken better 
 pictures, but it’s a bargain.
