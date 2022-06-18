@@ -109,33 +109,34 @@ inspecting the data, I observed that the median price of a condo with a water vi
 higher! Not all water views are created equal, however. The locations where my model 
 underestimated the value of a water view – i.e., the most desirable water views – were in 
 Boston Waterfront, Hudson Yards, and Baltimore Harbor.
-
+<ul>
 <p align="left">
 <img src="Images/Water View Barchart.png">
 </p>
-
-2. Literature review suggests the more [bedrooms](https://listwithclever.com/real-estate-blog/how-much-value-does-extra-bedroom-add-to-house/)
-and [bathrooms](https://www.opendoor.com/w/blog/improvements-that-increase-home-value#:~:text=According%20to%20Opendoor's%20data%2C%20adding,shower%2C%20sink%2C%20and%20toilet.), the higher the condo price. After 
+</ul>
+2. Literature review suggests the more bedrooms and bathrooms, the higher the condo price. After 
 inspecting the data, this is true, and in fact bathrooms have a stronger influence on price than 
 bedrooms. I found that the most common (modal) condo has two bedrooms and one bathroom.
 
+<ul>
 <p align="left">
 <img src="Images/Bathrooms and Bedrooms Barchart.png">
 </p>
+</ul>
 
 3. Literature review suggests that [an attached garage increases condo’s price](https://www.s-ehrlich.com/how-much-value-does-a-garage-add-to-a-condo/). The data supports 
 this. The median price of a condo with an attached garage is $775k, compared to $360k among 
 condos without an attached garage. In other words, more than double the price!
-
+<ul>
 <p align="left">
 <img src="Images/Attached Garage Barchart.png">
-</p>
+</p></ul>
 
 4. Literature review suggests [the higher the elementary school score, the higher the condo price](https://www.opendoor.com/w/blog/how-school-ratings-impact-home-prices). Better elementary schools help students qualify for magnet highs schools that prep student for a 
 better college experience. This environment will help students secure higher paying jobs in the 
 future.
 
-  >My data set does not support this theory. Condos in areas with an elementary school score of 10 
+  <ul>My data set does not support this theory. Condos in areas with an elementary school score of 10 
   (the highest rating) have the highest median condo price. However, there is not a strong 
   relationship between elementary school quality and condo price for elementary schools with 
   scores of 1-9. Condos with an elementary school score of 1 have a higher median price, but 
@@ -147,10 +148,10 @@ future.
 <img src="Images/Elementary School Score Barchart.png" width=400>
 </p>
 
-  >I am initially surprised that the correlation coefficient is low (r=.16). One potential explanation is 
+  I am initially surprised that the correlation coefficient is low (r=.16). One potential explanation is 
   that condo buyer motivations are different. Condo buyers with or plan to have children place 
   value in elementary school score, while those without may not, so that relationship gets
-  obscured.
+  obscured.</ul>
 
 5. Literature review suggests that both [historic homes](https://www.avhomeexperts.com/blog/2018/5/9/in-love-with-historic-homes-here-are-the-pros-and-cons-of-buying-one) and [new builds](https://mmlending.com/the-history-of-house-flipping/#:~:text=Savvy%20people%20would%20buy%20foreclosed,older%20homes%20concurrently%20became%20popular.) have higher prices. After 
 inspecting the data, year built has a U-shaped relationship relative to price, which is consistent 
@@ -159,9 +160,9 @@ require as much maintenance or renovation, while historic homes pre-1900s are tr
 because of its rich history, architecture, and charm. They are likely in dense, central locations 
 that are attractive for tourism and can offer tax benefits.
 
-<p align="left">
+<ul><p align="left">
 <img src="Images/Year Built Barchart.png" >
-</p>
+</p></ul>
 
 6. [Sun score](https://freedomsolarpower.com/blog/is-my-house-suitable-for-solar-panels-factors-that-affect-your-homes-sun-number-score)
 is a composite score that measures your property’s solar power potential to install 
@@ -178,18 +179,20 @@ an exponential relationship. Excluding Manhattan, 75% of condo units in my data 
 walkable areas. Walkability likely increases condo prices because amenities and transit are 
 easily accessible, which is desirable.
 
+<ul>
 <p align="left">
 <img src="Images/Walk Score Barchart.png" >
-</p>
+</p></ul>
 
 8. Literature review suggests [the better the transit score, the higher the property price](https://www.redfin.com/news/how-much-is-one-point-of-transit-score-worth/). After 
 running a correlation matrix, it confirms transit score is highly correlated with walk score
 (correlation coefficient = 0.75) and have higher prices. Locations with a higher walk score 
 typically have good public transit due to thoughtful urban planning.
 
+<ul>
 <p align="left">
 <img src="Images/Transit Score Barchart.png" width=710>
-</p>
+</p></ul>
 
 9. Based on literature review, [the higher the HOA fee, the lower the condo price](https://www.washingtonpost.com/realestate/the-financial-conundrum-over-condominium-fees/2020/02/19/24d27eb4-3faf-11ea-8872-5df698785a4e_story.html/). After inspecting 
 the data and dropping null HOA fees, it appears monthly HOA fees is weakly positively 
@@ -202,10 +205,10 @@ commute time into 3 quantiles and used the mean price instead. After inspecting 
 is consistent with literature review, that commute times are negatively correlated with condo 
 price (correlation coefficient=-.37). In general, people are willing to pay for a unit that shortens 
 their commute time, so they have more free time for other activities.
-
+<ul>
 <p align="left">
 <img src="Images/Commute Time Barchart.png" width=350>
-</p>
+</p></ul>
 
 ### Step 4: Modeling Building
 
@@ -301,26 +304,26 @@ a pending offer. It is a bargain in Rittenhouse Square, an affluent neighborhood
 security, a rooftop deck, air conditioning, and is close to food/shops. It could have taken better 
 pictures, but it’s a bargain.
 
-<p align="left">
+<ul><p align="left">
 <img src="Images/1st condo.png" width=400>
-</p>
+</p></ul>
 
 2. <b>Progressive style in a hip neighborhood. </b> [810 N Hancock St 2](https://www.zillow.com/homes/810-N-Hancock-St-.num.2-Philadelphia,-PA-19123_rb/67365082_zpid/). Predicted Price: $338,152, Actual 
 Price: $320,000. This is sold. It’s in North Liberties, a young professional neighborhood close to
 food and entertainment. There’s a garage, natural lighting throughout the property, and a 
 rooftop deck. It has a very modern design, which I enjoy.
 
-<p align="left">
+<ul><p align="left">
 <img src="Images/2nd condo.png" width=400>
-</p>
+</p></ul>
 
 3. <b>Average and livable.</b> [2101 Chestnut 403](https://www.zillow.com/homes/2101-Chestnut-St-.num.403-Philadelphia,-PA-19103_rb/2095567726_zpid/). Predicted Price: $180,120. Actual Price: $174,500 (Sold 
 Price:$160k). This is sold. Riverwest Condos is in Rittenhouse, close to Trader Joes, restaurants, 
 and walking distance to universities. The downside is it looks very typical.
 
-<p align="left">
+<ul><p align="left">
 <img src="Images/3rd condo.png" width=400>
-</p>
+</p></ul>
 
 ### Step 5b: Error Findings
 NYC represents 75% of the condos in the data set, so the model reflects more of what NYC condo buyers 
@@ -383,31 +386,32 @@ Capping price at a $325K threshold, I identified 14 total undervalued condos, 3 
 1. <b>Clean layout, high ceilings, and natural sunlight.</b> [444 N 4th St Unit 313](https://www.zillow.com/homes/444-N-4th-St-.num.313-Philadelphia,-PA-19123_rb/87764833_zpid/). Predicted Price: 
 $368,817, Actual Price: $305K (Sold Price: $296,000).
 
+<ul>
 <p align="left">
 <img src="Images/4th condo.png" width=800>
 </p>
   In Northern Liberties, a young professional neighborhood, the visuals are impressive. The condo
-  uses updated design concepts.
+  uses updated design concepts.</ul>
 
 2. <b>Cozy layout and design. </b> [1431 N 5th St #1](https://www.zillow.com/homes/1431-N-5th-St-.num.1-Philadelphia,-PA-19122_rb/246161604_zpid/). Predicted Price: $800k, Actual Price: $320K. The 
 predicted price is high because it has 3 bedrooms, 2 bathrooms, and is 1769 sq ft.
 
-<p align="left">
+<ul><p align="left">
 <img src="Images/5th condo.png" width=400>
 </p>
 
   While Kensington overall is not known to be safe, [Old Kensington](https://www.niche.com/places-to-live/n/old-kensington-philadelphia-pa/) is the most gentrified because 
   it’s by Northern Liberties, so safety is improving as more young professionals move into this 
-  neighborhood.
+  neighborhood.</ul>
 
 3. <b>The living room, kitchen, and bathroom design are appealing.</b> [3900 Ford Rd APT 3O](https://www.zillow.com/homes/3900-Ford-Rd-.num.3O-Philadelphia,-PA-19131_rb/10607552_zpid/).
 Predicted Price: $453,690. Actual Price: $315K (Sold Price: $80K).
 
-<p align="left">
+<ul><p align="left">
 <img src="Images/6th condo.png" width=800>
 </p>
 
-  Park Plaza is downtown. It looks like a great place to host friends.
+  Park Plaza is downtown. It looks like a great place to host friends.</ul>
 
   While I found a few hidden gems listed above, most undervalued condos have an average 
   appearance in terms of condition and style. As a prospective buyer, I want to buy something
@@ -430,14 +434,14 @@ cheaper) and no HOA fee was listed, the predicted price came out negative.
 <p align="left">
 <img src="Images/7th condo.png" width=800>
 </p>
-
+  
 2. <b>Modern and chic layout.</b> [1931 Spruce St 1C](https://www.zillow.com/homes/1931-Spruce-St-.num.1C-Philadelphia,-PA-19103_rb/71246871_zpid/). Predicted Price: $215k. Actual Price: $275K (Sold 
 Price: $256K). It is overvalued by $60k, but the renovations and décor are impressive. The model 
 cannot capture how well maintained or stylistically unique a condo is.
 
 <p align="left">
 <img src="Images/8th condo.png" width=400>
-</p>
+  </p>
 
 In summary, these two overvalued condos require compromises between less attractive and more 
 attractive features.
