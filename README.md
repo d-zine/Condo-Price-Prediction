@@ -1,6 +1,6 @@
 <h2 align="center"> Condo Price Prediction</h2>
 
-<h3 align="center"> Identifying Undervalued Condos in Northeastern US Cities</h3>
+<h3 align="center"> Identify Undervalued Condos in Northeastern US Cities</h3>
 
 <h3 align="center"> Executive Summary</h3>
 With so many condos to choose from, how can buyers quickly identify fair and bargain value condos? 
