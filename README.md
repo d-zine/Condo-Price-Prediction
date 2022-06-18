@@ -114,7 +114,9 @@ Boston Waterfront, Hudson Yards, and Baltimore Harbor.
 <img src="Images/Water View Barchart.png">
 </p>
 </ul>
-2. Literature review suggests the more [bedrooms](https://listwithclever.com/real-estate-blog/how-much-value-does-extra-bedroom-add-to-house/) and bathrooms(https://www.opendoor.com/w/blog/improvements-that-increase-home-value#:~:text=According%20to%20Opendoor's%20data%2C%20adding,shower%2C%20sink%2C%20and%20toilet.), the higher the condo price. After 
+
+2. Literature review suggests the more [bedrooms](https://listwithclever.com/real-estate-blog/how-much-value-does-extra-bedroom-add-to-house/) and 
+[bathrooms](https://www.opendoor.com/w/blog/improvements-that-increase-home-value#:~:text=According%20to%20Opendoor's%20data%2C%20adding,shower%2C%20sink%2C%20and%20toilet.), the higher the condo price. After 
 inspecting the data, this is true, and in fact bathrooms have a stronger influence on price than 
 bedrooms. I found that the most common (modal) condo has two bedrooms and one bathroom.
 
