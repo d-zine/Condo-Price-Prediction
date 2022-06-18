@@ -48,7 +48,8 @@ on their model to automate this process failed: Zillow cut 25% of their workforc
 million this year.
 
 For these reasons, I ultimately created a decision support tool that combines model predictions, a 
-PowerBI dashboard, and in-depth research on promising condos that appear undervalued, which 
+[PowerBI dashboard](https://github.com/d-zine/Condo-Price-Prediction/tree/main/PowerBI%20Dashboard/),
+and in-depth research on promising condos that appear undervalued, which 
 accomplishes the original intent of this project.
 
 
