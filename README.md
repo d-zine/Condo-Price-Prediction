@@ -238,15 +238,15 @@ gradient-boosted decision tree to improve the model fit.
 Specific [error](https://medium.com/human-in-a-machine-world/mae-and-rmse-which-metric-is-better-e60ac3bde13d/) metrics, such as MAE, MAPE, and RMSE, are considered to evaluate the performance of 
 the two algorithms.
 
-• The Mean Absolute Error (MAE) is the average of the absolute error in dollars and is most 
+- The Mean Absolute Error (MAE) is the average of the absolute error in dollars and is most 
 interpretable. It measures predictive accuracy. From these results, it means, on average, our 
 model predictions are off by ± the MAE value.
 
-• The Mean Absolute Percentage Error (MAPE) measures how far the model’s predictions are off 
+- The Mean Absolute Percentage Error (MAPE) measures how far the model’s predictions are off 
 on average expressed as a percentage. In other words, the average percentage difference 
 between the predicted value and the actual value is the MAPE.
 
-• The Root mean squared error (RMSE) measures the average magnitude of the error in dollars,
+- The Root mean squared error (RMSE) measures the average magnitude of the error in dollars,
 and compared to the MAE, penalizes large errors. A high RMSE is not necessarily a bad thing,
 because large errors can help pinpoint undervalued condos where predicted price is greater 
 than actual price, so RMSE will not be deeply assessed to measure model performance.
@@ -448,9 +448,9 @@ cannot capture how well maintained or stylistically unique a condo is.
 In summary, these two overvalued condos require compromises between less attractive and more 
 attractive features.
 
-By focusing only on Philadelphia, the error metrics improved. MAE for the Philly Gradient Boosted 
-Decision Tree is $135k, vs. $246k MAE for the Philly Multiple Linear Regression. The MAPE for the 
-Philadelphia GBM is 21% vs. 44% for the MLR.
+By focusing only on Philadelphia, the error metrics improved. MAE for the Philly Gradient-Boosted 
+Decision Tree is $135k, vs. $246k MAE for the Philadelphia Multiple Linear Regression. The MAPE for the Philadelphia Gradient-Boosted Decision Tree Model 
+is 21% vs. 44% for the Philadelphia Multiple Linear Regression.
 
 At both the Northeast regional and local Philadelphia level, Gradient Boosted Decision Trees outperform 
 Multiple Linear Regression in accurately predicting condo price.
@@ -534,17 +534,17 @@ keep it simple.
 ### Step 8: Next steps
 If there was more time, here are other ways to enhance the project:
 
-• Look at undervalued Philadelphia condo errors above $325k for more inspiration and to 
+- Look at undervalued Philadelphia condo errors above $325k for more inspiration and to 
 understand what else the model can’t account for. Streamline city-level error outputs.
 
-• Analyze condos by city. Each city has a differentiator and faces different risks. A differentiator in 
+- Analyze condos by city. Each city has a differentiator and faces different risks. A differentiator in 
 Boston is hiking trails and the waterfront view. A risk in Baltimore is environmental flooding. 
 Each housing market is very different, and one may get better results focusing on one city. Note 
 the condo inventory on sale is lower than 1,000 units in every northeastern city except New 
 York City. That means that while one may get better results focusing on one city, there is a 
 tradeoff in terms of data availability to train the model.
 
-• Given that in New York City, Jersey City, and Boston, residents primarily rent because they 
+- Given that in New York City, Jersey City, and Boston, residents primarily rent because they 
 moved there for work, are more transient, and it’s more expensive to own property, does it 
 make more sense to rent instead of buy in these locations? This project can be replicated and 
 repurposed to identify affordable apartments for rent, using monthly rent as the target variable.
