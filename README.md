@@ -1,10 +1,6 @@
-<h1 align="center"> Condo-Price-Prediction</h1>
-The purpose of this capstone project is to identify undervalued condos in US Northeastern cities using multiple linear regression 
-and gradient boosting algorithms.
+<h2 align="center"> Condo Price Prediction</h2>
 
-Please refer to the attached PDF for a succinct writeup while the ReadME is under construction.
-
-<h2 align="center"> Identifying undervalued condos in Northeastern US cities</h2>
+<h3 align="center"> Identifying Undervalued Condos in Northeastern US Cities</h3>
 
 <h3 align="center"> Executive Summary</h3>
 With so many condos to choose from, how can buyers quickly identify fair and bargain value condos? 
