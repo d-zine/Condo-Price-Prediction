@@ -152,7 +152,7 @@ future.
   value in elementary school score, while those without may not, so that relationship gets
   obscured.
 
-5. Literature review suggests that both historic homes and new builds have higher prices. After 
+5. Literature review suggests that both [historic homes](https://www.avhomeexperts.com/blog/2018/5/9/in-love-with-historic-homes-here-are-the-pros-and-cons-of-buying-one) and [new builds](https://mmlending.com/the-history-of-house-flipping/#:~:text=Savvy%20people%20would%20buy%20foreclosed,older%20homes%20concurrently%20became%20popular.) have higher prices. After 
 inspecting the data, year built has a U-shaped relationship relative to price, which is consistent 
 with the prior research. Newer builds tend to be larger, have modern aesthetics, and do not 
 require as much maintenance or renovation, while historic homes pre-1900s are treasured
