@@ -305,7 +305,7 @@ pictures, but it’s a bargain.
 <img src="Images/1st condo.png" width=400>
 </p>
 
-2. <b>Progressive style in a hip neighborhood. </b> 810 N Hancock St 2. Predicted Price: $338,152, Actual 
+2. <b>Progressive style in a hip neighborhood. </b> [810 N Hancock St 2](https://www.zillow.com/homes/810-N-Hancock-St-.num.2-Philadelphia,-PA-19123_rb/67365082_zpid/). Predicted Price: $338,152, Actual 
 Price: $320,000. This is sold. It’s in North Liberties, a young professional neighborhood close to
 food and entertainment. There’s a garage, natural lighting throughout the property, and a 
 rooftop deck. It has a very modern design, which I enjoy.
@@ -314,7 +314,7 @@ rooftop deck. It has a very modern design, which I enjoy.
 <img src="Images/2nd condo.png" width=400>
 </p>
 
-3. <b>Average and livable.</b> 2101 Chestnut 403. Predicted Price: $180,120. Actual Price: $174,500 (Sold 
+3. <b>Average and livable.</b> [2101 Chestnut 403](https://www.zillow.com/homes/2101-Chestnut-St-.num.403-Philadelphia,-PA-19103_rb/2095567726_zpid/). Predicted Price: $180,120. Actual Price: $174,500 (Sold 
 Price:$160k). This is sold. Riverwest Condos is in Rittenhouse, close to Trader Joes, restaurants, 
 and walking distance to universities. The downside is it looks very typical.
 
@@ -380,7 +380,7 @@ determining factor between buying and passing on comparable homes with all the e
 I used the Philadelphia Multiple Linear Regression model to identify additional undervalued condos.
 Capping price at a $325K threshold, I identified 14 total undervalued condos, 3 of which I like:
 
-1. <b>Clean layout, high ceilings, and natural sunlight.</b> 444 N 4th St Unit 313. Predicted Price: 
+1. <b>Clean layout, high ceilings, and natural sunlight.</b> [444 N 4th St Unit 313](https://www.zillow.com/homes/444-N-4th-St-.num.313-Philadelphia,-PA-19123_rb/87764833_zpid/). Predicted Price: 
 $368,817, Actual Price: $305K (Sold Price: $299,900).
 
 <p align="left">
@@ -389,18 +389,18 @@ $368,817, Actual Price: $305K (Sold Price: $299,900).
   In Northern Liberties, a young professional neighborhood, the visuals are impressive. The condo
   uses updated design concepts.
 
-2. <b>Cozy layout and design. </b> 1431 N 5th St #1. Predicted Price: $800k, Actual Price: $320K. The 
+2. <b>Cozy layout and design. </b> [1431 N 5th St #1](https://www.zillow.com/homes/1431-N-5th-St-.num.1-Philadelphia,-PA-19122_rb/246161604_zpid/). Predicted Price: $800k, Actual Price: $320K. The 
 predicted price is high because it has 3 bedrooms, 2 bathrooms, and is 1769 sq ft.
 
 <p align="left">
 <img src="Images/5th condo.png" width=400>
 </p>
 
-  While Kensington overall is not known to be safe, Old Kensington is the most gentrified because 
+  While Kensington overall is not known to be safe, [Old Kensington](https://www.niche.com/places-to-live/n/old-kensington-philadelphia-pa/) is the most gentrified because 
   it’s by Northern Liberties, so safety is improving as more young professionals move into this 
   neighborhood.
 
-3. <b>The living room, kitchen, and bathroom design are appealing.</b> 3900 Ford Rd APT 3O
+3. <b>The living room, kitchen, and bathroom design are appealing.</b> [3900 Ford Rd APT 3O](https://www.zillow.com/homes/3900-Ford-Rd-.num.3O-Philadelphia,-PA-19131_rb/10607552_zpid/)
 Predicted Price: $453,690. Actual Price: $315K (Sold Price: $80K).
 
 <p align="left">
@@ -421,7 +421,7 @@ Next, capping price at a $325K threshold, I looked at overvalued condos to asses
 results. I agree with 12 of the 14 errors. Either they are in buildings that are relatively average or in 
 average neighborhoods. There were 2 overvalued errors that caught my eye.
 
-1. <b>Of Sentimental Value.</b> 604 S Washington Sq APT 1806. Predicted Price: $-238K. Actual Price: 
+1. <b>Of Sentimental Value.</b> [604 S Washington Sq APT 1806](https://www.zillow.com/homes/604-S-Washington-Sq-.num.1806-Philadelphia,-PA-19106_rb/2068002214_zpid/). Predicted Price: $-238K. Actual Price: 
 $217K (Sold Price: $202K). It has a fantastic view but is overvalued by $455k. It has 0 bedrooms 
 and is small at only 600 square feet but is right by a beautiful square. It is one of my favorite 
 spots to talk to friends! Because I included neighborhoods in my model (this neighborhood is 
@@ -431,7 +431,7 @@ cheaper) and no HOA fee was listed, the predicted price came out negative.
 <img src="Images/7th condo.png" width=800>
 </p>
 
-2. <b>Modern and chic layout.</b> 1931 Spruce St 1C. Predicted Price: $215k. Actual Price: $275K (Sold 
+2. <b>Modern and chic layout.</b> [1931 Spruce St 1C](https://www.zillow.com/homes/1931-Spruce-St-.num.1C-Philadelphia,-PA-19103_rb/71246871_zpid/). Predicted Price: $215k. Actual Price: $275K (Sold 
 Price: $256K). It is overvalued by $60k, but the renovations and décor are impressive. The model 
 cannot capture how well maintained or stylistically unique a condo is.
 
@@ -488,9 +488,9 @@ because I’ve been downtown-centric in my search. I plan to visit at least one 
 what I see is what I expect and read through reviews.
 
 
-### When the zestimate fails:
+### [When the zestimate fails](https://www.youtube.com/watch?v=FqNpDNmpcEo):
 
-The zestimate is Zillow’s house valuation tool that “allows users to see how much homes are worth. The 
+The [zestimate](https://www.investopedia.com/articles/personal-finance/111115/zillow-estimates-not-accurate-you-think.asp) is Zillow’s house valuation tool that “allows users to see how much homes are worth. The 
 zestimate is based on information from sources like comparable sales and public data. Zestimates are 
 only as accurate as the data behind them, meaning they may be outdated or incorrect”.
 
