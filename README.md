@@ -59,6 +59,11 @@ accomplishes the original intent of this project.
 
 I acquired property listing data for 13,920 condos in 16 Northeastern cities.
 
+<p align="center">
+<img src="Images/Choropleth Map.png" width=850>
+</p>
+
+
 ### Why the Northeast?
 
 Elasticity is the change in demand given change in price. The Northeast region exhibits price 
@@ -66,6 +71,10 @@ inelasticity (denoted in red below), meaning that supply cannot keep up with dem
 are a lack of substitutes. Northeastern states are also more densely populated and have bodies 
 of water that limit the land available for construction, so are more comparable than regions with 
 more open space.
+
+<p align="center">
+<img src="Images/Condos in NE Cities exhibit Price Inelasticity.png" >
+</p>
 
 <h3 align="center"> Analytical method </h3>
 
@@ -87,6 +96,9 @@ datasets have lat-long coordinates that allow PowerBI to plot them on a map. Thi
 gauge the safety of a neighborhood where condo prices are listed on sale, displays geographic patterns 
 in condo pricing, and provides further context to prospective homebuyers.
 
+<p align="center">
+<img src="Images/PowerBI Screenshot.png">
+</p>
 
 ### Step 3: Exploratory Data Analysis (EDA)
 
