@@ -104,7 +104,7 @@ in condo pricing, and provides further context to prospective homebuyers.
 As part of my quest to identify undervalued condos, I wanted to understand which factors impact condo 
 price, based on a detailed literature review and verifying those trends in my data set.
 
-1. Literature review suggests price is higher for condos with a sought-after water view. After 
+1. Literature review suggests [price is higher for condos with a sought-after water view](https://www.nerdwallet.com/article/mortgages/how-much-does-a-view-affect-a-homes-value). After 
 inspecting the data, I observed that the median price of a condo with a water view is 50% 
 higher! Not all water views are created equal, however. The locations where my model 
 underestimated the value of a water view – i.e., the most desirable water views – were in 
@@ -114,7 +114,8 @@ Boston Waterfront, Hudson Yards, and Baltimore Harbor.
 <img src="Images/Water View Barchart.png">
 </p>
 
-2. Literature review suggests the more bedrooms and bathrooms, the higher the condo price. After 
+2. Literature review suggests the more [bedrooms](https://listwithclever.com/real-estate-blog/how-much-value-does-extra-bedroom-add-to-house/)
+and [bathrooms](https://www.opendoor.com/w/blog/improvements-that-increase-home-value#:~:text=According%20to%20Opendoor's%20data%2C%20adding,shower%2C%20sink%2C%20and%20toilet.), the higher the condo price. After 
 inspecting the data, this is true, and in fact bathrooms have a stronger influence on price than 
 bedrooms. I found that the most common (modal) condo has two bedrooms and one bathroom.
 
