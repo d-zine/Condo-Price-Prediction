@@ -381,7 +381,7 @@ I used the Philadelphia Multiple Linear Regression model to identify additional 
 Capping price at a $325K threshold, I identified 14 total undervalued condos, 3 of which I like:
 
 1. <b>Clean layout, high ceilings, and natural sunlight.</b> [444 N 4th St Unit 313](https://www.zillow.com/homes/444-N-4th-St-.num.313-Philadelphia,-PA-19123_rb/87764833_zpid/). Predicted Price: 
-$368,817, Actual Price: $305K (Sold Price: $299,900).
+$368,817, Actual Price: $305K (Sold Price: $296,000).
 
 <p align="left">
 <img src="Images/4th condo.png" width=800>
@@ -400,7 +400,7 @@ predicted price is high because it has 3 bedrooms, 2 bathrooms, and is 1769 sq f
   it’s by Northern Liberties, so safety is improving as more young professionals move into this 
   neighborhood.
 
-3. <b>The living room, kitchen, and bathroom design are appealing.</b> [3900 Ford Rd APT 3O](https://www.zillow.com/homes/3900-Ford-Rd-.num.3O-Philadelphia,-PA-19131_rb/10607552_zpid/)
+3. <b>The living room, kitchen, and bathroom design are appealing.</b> [3900 Ford Rd APT 3O](https://www.zillow.com/homes/3900-Ford-Rd-.num.3O-Philadelphia,-PA-19131_rb/10607552_zpid/).
 Predicted Price: $453,690. Actual Price: $315K (Sold Price: $80K).
 
 <p align="left">
