@@ -290,7 +290,7 @@ Condos that are undervalued in this price range have the essentials for a great 
 records are Philadelphia condos which have now been sold in the two months since the data was 
 extracted. What the model could not capture is that the remaining five condos that have not sold have 
 some flaw: they are either in a bad neighborhood, have poor management, have poor conduct by 
-workers, are noisy, or a majority of residents of a condo building are [senior citizens](https://www.veryapt.com/ApartmentReview-a92-academy-house-philadelphia/)
+workers, are noisy, or a majority of residents of a condo building are [senior citizens](https://www.veryapt.com/ApartmentReview-a92-academy-house-philadelphia)
 (that means people 
 might change their behavior to accommodate demographic need). This can only be discovered by 
 reading reviews about the condo building and is not easily encoded in the dataset in a way that can be 
