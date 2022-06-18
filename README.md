@@ -135,7 +135,7 @@ condos without an attached garage. In other words, more than double the price!
 better college experience. This environment will help students secure higher paying jobs in the 
 future.
 
-  My data set does not support this theory. Condos in areas with an elementary school score of 10 
+  >My data set does not support this theory. Condos in areas with an elementary school score of 10 
   (the highest rating) have the highest median condo price. However, there is not a strong 
   relationship between elementary school quality and condo price for elementary schools with 
   scores of 1-9. Condos with an elementary school score of 1 have a higher median price, but 
@@ -147,7 +147,7 @@ future.
 <img src="Images/Elementary School Score Barchart.png" width=400>
 </p>
 
-  I am initially surprised that the correlation coefficient is low (r=.16). One potential explanation is 
+  >I am initially surprised that the correlation coefficient is low (r=.16). One potential explanation is 
   that condo buyer motivations are different. Condo buyers with or plan to have children place 
   value in elementary school score, while those without may not, so that relationship gets
   obscured.
