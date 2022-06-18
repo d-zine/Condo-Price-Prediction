@@ -163,7 +163,8 @@ that are attractive for tourism and can offer tax benefits.
 <img src="Images/Year Built Barchart.png" >
 </p>
 
-6. Sun score is a composite score that measures your property’s solar power potential to install 
+6. [Sun score](https://freedomsolarpower.com/blog/is-my-house-suitable-for-solar-panels-factors-that-affect-your-homes-sun-number-score)
+is a composite score that measures your property’s solar power potential to install 
 solar panels. While research suggests installing solar panels increases property value, after 
 inspecting the data, sun score appears to have no relationship with price. This could be because
 many condos – especially in NYC – are in apartment buildings, where individual condo owners 
