@@ -112,18 +112,18 @@ Better elementary schools help students qualify for magnet highs schools that pr
 better college experience. This environment will help students secure higher paying jobs in the 
 future.
 
-My data set does not support this theory. Condos in areas with an elementary school score of 10 
-(the highest rating) have the highest median condo price. However, there is not a strong 
-relationship between elementary school quality and condo price for elementary schools with 
-scores of 1-9. Condos with an elementary school score of 1 have a higher median price, but 
-represent only 1% of records, so may not be representative. In this case, there may be some 
-expensive condos next to poorly rated public schools where students are sent to private schools 
-instead.
+  My data set does not support this theory. Condos in areas with an elementary school score of 10 
+  (the highest rating) have the highest median condo price. However, there is not a strong 
+  relationship between elementary school quality and condo price for elementary schools with 
+  scores of 1-9. Condos with an elementary school score of 1 have a higher median price, but 
+  represent only 1% of records, so may not be representative. In this case, there may be some 
+  expensive condos next to poorly rated public schools where students are sent to private schools 
+  instead.
 
-I am initially surprised that the correlation coefficient is low (r=.16). One potential explanation is 
-that condo buyer motivations are different. Condo buyers with or plan to have children place 
-value in elementary school score, while those without may not, so that relationship gets
-obscured.
+  I am initially surprised that the correlation coefficient is low (r=.16). One potential explanation is 
+  that condo buyer motivations are different. Condo buyers with or plan to have children place 
+  value in elementary school score, while those without may not, so that relationship gets
+  obscured.
 
 5. Literature review suggests that both historic homes and new builds have higher prices. After 
 inspecting the data, year built has a U-shaped relationship relative to price, which is consistent 
@@ -193,9 +193,11 @@ the two algorithms.
 • The Mean Absolute Error (MAE) is the average of the absolute error in dollars and is most 
 interpretable. It measures predictive accuracy. From these results, it means, on average, our 
 model predictions are off by ± the MAE value.
+
 • The Mean Absolute Percentage Error (MAPE) measures how far the model’s predictions are off 
 on average expressed as a percentage. In other words, the average percentage difference 
 between the predicted value and the actual value is the MAPE.
+
 • The Root mean squared error (RMSE) measures the average magnitude of the error in dollars,
 and compared to the MAE, penalizes large errors. A high RMSE is not necessarily a bad thing,
 because large errors can help pinpoint undervalued condos where predicted price is greater 
@@ -255,12 +257,12 @@ a pending offer. It is a bargain in Rittenhouse Square, an affluent neighborhood
 security, a rooftop deck, air conditioning, and is close to food/shops. It could have taken better 
 pictures, but it’s a bargain.
 
-2.<b> Progressive style in a hip neighborhood. </b> 810 N Hancock St 2. Predicted Price: $338,152, Actual 
+2. <b>Progressive style in a hip neighborhood. </b> 810 N Hancock St 2. Predicted Price: $338,152, Actual 
 Price: $320,000. This is sold. It’s in North Liberties, a young professional neighborhood close to
 food and entertainment. There’s a garage, natural lighting throughout the property, and a 
 rooftop deck. It has a very modern design, which I enjoy.
 
-3.<b> Average and livable.</b> 2101 Chestnut 403. Predicted Price: $180,120. Actual Price: $174,500 (Sold 
+3. <b>Average and livable.</b> 2101 Chestnut 403. Predicted Price: $180,120. Actual Price: $174,500 (Sold 
 Price:$160k). This is sold. Riverwest Condos is in Rittenhouse, close to Trader Joes, restaurants, 
 and walking distance to universities. The downside is it looks very typical.
 
@@ -323,29 +325,29 @@ determining factor between buying and passing on comparable homes with all the e
 I used the Philadelphia Multiple Linear Regression model to identify additional undervalued condos.
 Capping price at a $325K threshold, I identified 14 total undervalued condos, 3 of which I like:
 
-1. <b> Clean layout, high ceilings, and natural sunlight.</b> 444 N 4th St Unit 313. Predicted Price: 
+1. <b>Clean layout, high ceilings, and natural sunlight.</b> 444 N 4th St Unit 313. Predicted Price: 
 $368,817, Actual Price: $305K (Sold Price: $299,900).
 
-In Northern Liberties, a young professional neighborhood, the visuals are impressive. The condo
-uses updated design concepts.
+  In Northern Liberties, a young professional neighborhood, the visuals are impressive. The condo
+  uses updated design concepts.
 
-2. <b> Cozy layout and design. </b> 1431 N 5th St #1. Predicted Price: $800k, Actual Price: $320K. The 
+2. <b>Cozy layout and design. </b> 1431 N 5th St #1. Predicted Price: $800k, Actual Price: $320K. The 
 predicted price is high because it has 3 bedrooms, 2 bathrooms, and is 1769 sq ft.
 
-While Kensington overall is not known to be safe, Old Kensington is the most gentrified because 
-it’s by Northern Liberties, so safety is improving as more young professionals move into this 
-neighborhood.
+  While Kensington overall is not known to be safe, Old Kensington is the most gentrified because 
+  it’s by Northern Liberties, so safety is improving as more young professionals move into this 
+  neighborhood.
 
-3.<b> The living room, kitchen, and bathroom design are appealing.</b> 3900 Ford Rd APT 3O
+3. <b>The living room, kitchen, and bathroom design are appealing.</b> 3900 Ford Rd APT 3O
 Predicted Price: $453,690. Actual Price: $315K (Sold Price: $80K).
 
-Park Plaza is downtown. It looks like a great place to host friends.
+  Park Plaza is downtown. It looks like a great place to host friends.
 
-While I found a few hidden gems listed above, most undervalued condos have an average 
-appearance in terms of condition and style. As a prospective buyer, I want to buy something
-impressive. While my model did not include any features on quality or condition, a more 
-advanced machine learning model may be able to extract a listing’s visual attractiveness by 
-analyzing ad scoring the listing’s photos.
+  While I found a few hidden gems listed above, most undervalued condos have an average 
+  appearance in terms of condition and style. As a prospective buyer, I want to buy something
+  impressive. While my model did not include any features on quality or condition, a more 
+  advanced machine learning model may be able to extract a listing’s visual attractiveness by 
+  analyzing ad scoring the listing’s photos.
 
 #### Philadelphia Model - Overvalued Condos
 
@@ -353,13 +355,13 @@ Next, capping price at a $325K threshold, I looked at overvalued condos to asses
 results. I agree with 12 of the 14 errors. Either they are in buildings that are relatively average or in 
 average neighborhoods. There were 2 overvalued errors that caught my eye.
 
-1.<b> Of Sentimental Value.</b> 604 S Washington Sq APT 1806. Predicted Price: $-238K. Actual Price: 
+1. <b>Of Sentimental Value.</b> 604 S Washington Sq APT 1806. Predicted Price: $-238K. Actual Price: 
 $217K (Sold Price: $202K). It has a fantastic view but is overvalued by $455k. It has 0 bedrooms 
 and is small at only 600 square feet but is right by a beautiful square. It is one of my favorite 
 spots to talk to friends! Because I included neighborhoods in my model (this neighborhood is 
 cheaper) and no HOA fee was listed, the predicted price came out negative.
 
-2.<b> Modern and chic layout.</b> 1931 Spruce St 1C. Predicted Price: $215k. Actual Price: $275K (Sold 
+2. <b>Modern and chic layout.</b> 1931 Spruce St 1C. Predicted Price: $215k. Actual Price: $275K (Sold 
 Price: $256K). It is overvalued by $60k, but the renovations and décor are impressive. The model 
 cannot capture how well maintained or stylistically unique a condo is.
 
