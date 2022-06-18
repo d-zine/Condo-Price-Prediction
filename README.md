@@ -89,10 +89,10 @@ prices (>$5.995M).
 
 ### Step 2: Merge Data to Postgres to PowerBI Dashboard
 
-I appended all condo records into one dataset and overlaid local Philly shootings to visualize crimes near 
-condos. This merged dataset was pushed to PostgreSQL, PostgreSQL was connected to PowerBI. Both 
-datasets have lat-long coordinates that allow PowerBI to plot them on a map. This visualization helps
-gauge the safety of a neighborhood where condo prices are listed on sale, displays geographic patterns 
+I appended all condo records into one dataset and overlaid local [Philly shootings](https://www.opendataphilly.org/dataset/shooting-victims)
+to visualize crimes near condos. This merged dataset was pushed to PostgreSQL, PostgreSQL was connected to PowerBI. Both 
+datasets have lat-long coordinates that allow [PowerBI](https://github.com/d-zine/Condo-Price-Prediction/tree/main/PowerBI%20Dashboard)
+to plot them on a map. This visualization helps gauge the safety of a neighborhood where condo prices are listed on sale, displays geographic patterns 
 in condo pricing, and provides further context to prospective homebuyers.
 
 <p align="center">
