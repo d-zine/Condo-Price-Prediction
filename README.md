@@ -170,7 +170,7 @@ inspecting the data, sun score appears to have no relationship with price. This 
 many condos – especially in NYC – are in apartment buildings, where individual condo owners 
 cannot choose to install solar panels regardless of the building’s solar potential.
 
-7. Literature review suggests the better the walk score, the higher the condo price. Manhattan is 
+7. Literature review suggests [the better the walk score, the higher the condo price](https://uppereastriver.com/why-walkability-is-so-important-for-property-investments-and-how-to-measure-that-walkability/). Manhattan is 
 an anomaly since it is a very walkable city independent of condo pricing and very expensive. For 
 that reason, I separated Manhattan from the rest of the data to unearth other relationships 
 between walk score and price. Even after separating Manhattan results, walk score still follows 
