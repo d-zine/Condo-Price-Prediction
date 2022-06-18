@@ -26,7 +26,7 @@ marriage status, median household income greater than 150K, home ownership, and 
 Recognizing that city plays a bigger role in accurately predicting condo prices and my multi-city model is 
 trained on 75% NYC data, I built another multiple linear regression using Philadelphia condos. This 
 model allowed me to predict condo price within $246K and 44% of actual price on average. I also trained 
-a Gradient Boosting model to predict home price, which reduced the error to $135K and 21% of actual 
+a gradient boosting model to predict home price, which reduced the error to $135K and 21% of actual 
 price on average. Gradient Boosting outperformed regression in the multi-city and Philadelphia model
 because it accounts for non-linear relationships. The Philadelphia specific model included a smaller set 
 of predictors to the multi-city model with the addition of neighborhood.
